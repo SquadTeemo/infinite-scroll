@@ -36,12 +36,9 @@ function displayPhotos() {
         alt: photo.alt_description,
         title: photo.alt_description,
       });
-
       img.addEventListener('load', imageLoaded);
-
       item.appendChild(img);
       imageContainer.appendChild(item);
-
     });
 }
 
@@ -55,8 +52,7 @@ async function getPhotos() {
        photosArray = await response.json();
        displayPhotos();
     } catch (error) {
-
-    }
+  }
 }
 
 window.addEventListener('scroll', () =>{
