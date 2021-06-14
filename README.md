@@ -1,5 +1,5 @@
 <div align="center">INFINITE SCROLL
 
-![cover](Random_Jokes.png)
+![cover](readme_img.png)
 
 </div>
